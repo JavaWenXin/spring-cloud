@@ -1,10 +1,10 @@
+server:
+  #端口号
+  port: 8011
+spring:
+  application:
+    name: provide-1
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8081/eureka/
-spring:
-  application:
-    name: consumer-1
-server:
-  #端口号
-  port: 8001
