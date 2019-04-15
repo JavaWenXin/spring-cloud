@@ -4,6 +4,11 @@ server:
 spring:
   application:
     name: provide-1
+  cloud:
+      sentinel:
+        transport:
+          port: 8720
+          dashboard: localhost:8080
 eureka:
   client:
     serviceUrl:

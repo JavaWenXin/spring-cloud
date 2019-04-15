@@ -5,6 +5,11 @@ eureka:
 spring:
   application:
     name: consumer-1
+  cloud:
+        sentinel:
+          transport:
+            port: 8720
+            dashboard: localhost:8080
 server:
   #端口号
   port: 8001
